@@ -10,4 +10,14 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
     {
         
     }
+    
+    public DbSet<Announcement> Announcements => Set<Announcement>();
+    
+    public DbSet<Seller> Sellers => Set<Seller>();
+    
+    public DbSet<PlatformUser> PlatformUsers => Set<PlatformUser>();
+    
+    public DbSet<Make> Makes => Set<Make>();
+    
+    public DbSet<Model> Models => Set<Model>();
 }
