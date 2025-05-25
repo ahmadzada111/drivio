@@ -7,12 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Drivio.Contracts\Drivio.Contracts.csproj" />
-      <ProjectReference Include="..\Drivio.Domain\Drivio.Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="MailKit" Version="4.12.1" />
+      <ProjectReference Include="..\Drivio.Service.Abstractions\Drivio.Service.Abstractions.csproj" />
+      <ProjectReference Include="..\Drivio.Shared\Drivio.Shared.csproj" />
     </ItemGroup>
 
 </Project>

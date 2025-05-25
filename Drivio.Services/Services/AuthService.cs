@@ -59,7 +59,7 @@ internal class AuthService : IAuthService
         }
         
         return new UserSignedUpDto(
-            Guid.Empty, 
+            userCreationResult.IdentityUser.Id, 
             userCreationResult.IdentityUser.Email!,
             userCreationResult.IdentityUser.UserName!);
     }
